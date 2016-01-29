@@ -226,4 +226,16 @@ final class App
 
         return $content;
     }
+
+    /**
+     * Render template with view and echo it
+     * @param  string $view
+     * @param  string $template
+     * @return null
+     */
+    public static function render($view, $template = 'dashboard.htm')
+    {
+        Base::instance()->set('content', $view);
+        echo Template::instance()->render($template);
+    }
 }
