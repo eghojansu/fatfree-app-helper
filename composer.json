@@ -1,0 +1,16 @@
+{
+	"name": "eghojansu/fatfree-app-helper",
+	"description": "Just an fatfree simple helper",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eghojansu/fatfree-app-helper"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree": "~3.5"
+    },
+    "autoload": {
+    	"files": ["src/App.php"]
+    }
+}
